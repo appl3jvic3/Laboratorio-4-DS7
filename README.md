@@ -70,17 +70,12 @@ La estructura principal del proyecto es la siguiente:
    npm run dev
    ```
 
-6. Ejecuta el servidor de desarrollo:
+6. Ejecuta el proyecto:
    ```bash
-   php -S localhost:8000
+   composer dump-load
+   php index.php
    ```
 
-## Cómo contribuir
-
-1. Haz un fork del repositorio.
-2. Crea una rama nueva: `git checkout -b feature/nueva-funcionalidad`
-3. Realiza tus cambios y haz commit con mensajes claros.
-4. Envía un Pull Request explicando tus cambios.
 
 ## Licencia
 
